@@ -1,0 +1,21 @@
+{
+    "name": "huang/test",
+    "description": "test package",
+    "type": "l",
+    "require": {
+        "php": ">= 7.0.0"
+    },
+    "license": "apache",
+    "authors": [
+        {
+            "name": "huang",
+            "email": "378969398@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "huang\\": "src"
+        }
+    }
+}
